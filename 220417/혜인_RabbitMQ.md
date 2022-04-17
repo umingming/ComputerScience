@@ -1,4 +1,4 @@
-# 220417 RabbitMQ
+# RabbitMQ
 
 ## 정의
 
