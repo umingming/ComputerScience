@@ -7,8 +7,7 @@
 - MQ를 사용하여 애플리케이션 간 결합도를 낮출 수 있음
 
 ## 핵심 개념
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5d99ef1-d7dc-4b71-b132-afdc7edd57b4/Untitled.png)
+![image](https://user-images.githubusercontent.com/90780701/163714908-8e92f5ab-c5db-4014-86ee-363aefabf427.png)
 
 ### Message
 
