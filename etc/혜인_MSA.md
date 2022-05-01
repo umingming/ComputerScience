@@ -26,7 +26,6 @@
 - 부분 장애가 전체 서비스의 장애로 확대될 수 있다.
 - 부분적인 Scale-out이 어렵다.
     - Scale-Out: 여러 서버로 나누어 일을 처리하는 방식
-        ![Untitled](https://user-images.githubusercontent.com/90780701/166146391-316810bb-d4c1-469f-8875-53558cdd2ef5.png)
 
 - 빌드 시간 및 테스트시간, 배포 시간이 오래 걸린다
 - 한 프레임워크와 언어에 종속적이다
