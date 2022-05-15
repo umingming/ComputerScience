@@ -12,16 +12,13 @@
 - 독립되어 있는 만큼 별도의 설비가 없이는 서로간에 통신이 어려움
 - 하나의 프로그램을 실행하더라도 여러 프로세스끼리 협력이 필요한 상황 존재
 - 이를 해결하기 위해 커널 영역(kernel-mode)에서 IPC(Inter-Process Communication)라는 프로세스들 간에 통신을 제공
-
-![리눅스 커널 구조](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cf84549-ab68-4941-ba1c-4bc2c2cfcc63/Untitled.png)
-
-리눅스 커널 구조
+![image](https://user-images.githubusercontent.com/90780701/168479010-b247b45b-c7f4-4f86-bea3-cf4682222298.png)
 
 ## IPC 모델
 
 ### 공유 메모리(****Shared memory)****
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b274bce7-a690-48a8-a262-e86b3caec957/Untitled.png)
+![image](https://user-images.githubusercontent.com/90780701/168479031-7fbcde6d-ad20-4a27-9cec-3e622cdfc8af.png)
 
 **공유 메모리 모델 특징**
 
@@ -43,7 +40,7 @@
 
 ### ****메세지 전달(Message passing)****
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9126719-0651-4c40-8793-f49bd20a307c/Untitled.png)
+![image](https://user-images.githubusercontent.com/90780701/168479037-00a0e056-3b6c-4d16-8122-54d56a3f422e.png)
 
 **메세지 전달 모델 특징**
 
@@ -63,15 +60,15 @@
 
 - **Direct Communication**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c54512b-6c7d-40b8-8394-b60cc6252120/Untitled.png)
-    
+    ![image](https://user-images.githubusercontent.com/90780701/168479060-b6a52a13-b664-4ea1-9a23-ce56c8b0285b.png)
+
     - 통신하려는 프로세스의 이름을 명시적으로 표시하여 메시지를 직접 전달하는 방식
     - 예를 들어 A 프로세스가 B 프로세스에게 메시지를 전달하고 싶을 때, 수신자 A 프로세스가  커널에게 직접적으로 메시지를 전달한 후, 커널이 B 프로세스에게 해당 메시지를 전달하는 방식
     - 프로세스 간 링크는 유일
     - 대부분 양방향으로 구성
 - **Indirect Communication**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d172dc11-32c4-407b-90ad-b7ca121e3d03/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/90780701/168479091-400c8084-5d01-4bfd-bc5b-205904545434.png)
     
     - mailbox(또는 port)를 통해 메시지 간접 전달하는 방식
     - port로 전송만 하면 되기 때문에 복잡한 communication link를 만들 수 있으며, 다 : 다 관계가 가능
