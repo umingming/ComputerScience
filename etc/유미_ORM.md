@@ -8,11 +8,11 @@
 
 - **상속** 클래스
     
-    ![Untitled](Object%20Relational%20Mapping%20f6d182a44bfa4dd8b7d2b4d5cc99c7bb/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87955005/168609007-56cc9d6d-402d-49bf-94e6-51b940b6f736.png)
     
 - **참조**를 이용하는 연관 관계
     
-    ![Untitled](Object%20Relational%20Mapping%20f6d182a44bfa4dd8b7d2b4d5cc99c7bb/Untitled%201.png)
+    ![image](https://user-images.githubusercontent.com/87955005/168609075-cecee92f-8f8e-4062-b443-092c9fb5cf9b.png)
     
 
 📎 엔티티
