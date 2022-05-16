@@ -19,11 +19,11 @@
 
 - 슈퍼/서브 타입 관계
     
-    ![Untitled](Object%20Relational%20Mapping%20f6d182a44bfa4dd8b7d2b4d5cc99c7bb/Untitled%202.png)
+    ![image](https://user-images.githubusercontent.com/87955005/168609179-e3fb5db9-4f50-4508-ae4c-bb7a9fdaa340.png)
     
 - 연관 관계에서 **외래 키** 사용
     
-    ![Untitled](Object%20Relational%20Mapping%20f6d182a44bfa4dd8b7d2b4d5cc99c7bb/Untitled%203.png)
+    ![image](https://user-images.githubusercontent.com/87955005/168609208-fa4ac1a6-f78f-43e9-bc19-21fc2a18e138.png)
     
 
 📎 SQL Mapper
