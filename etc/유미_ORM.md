@@ -105,4 +105,4 @@
 - JPA 구현체로 지원 메소드 내부에 JDBC API 동작
 - 개발자가 직접 SQL 작성할 필요 없음.
 
-![Untitled](Object%20Relational%20Mapping%20f6d182a44bfa4dd8b7d2b4d5cc99c7bb/Untitled%204.png)
+![image](https://user-images.githubusercontent.com/87955005/168609298-d9503166-d6d0-4e39-b77a-4a391347dce5.png)
