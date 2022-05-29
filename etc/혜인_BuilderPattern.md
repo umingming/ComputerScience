@@ -140,23 +140,23 @@ public class User
 
 ```java
 public static void main(String[] args) {
-	User user1 = new User.UserBuilder("Lokesh", "Gupta")
-                       .age(30)
-											 .phone("1234567")
-											 .address("Fake address 1234")
-											 .build();
+	User user1 = new User.UserBuilder("Hyein", "Lee")
+                       	     .age(30)
+			     .phone("010-1234-5678")
+			     .address("Fake address 1234")
+			     .build();
 
-	User user2 = new User.UserBuilder("Jack", "Reacher")
-                       .age(40)
-											 .phone("5655")
-											 //no address
-											 .build();
+	User user2 = new User.UserBuilder("엄", "바보")
+			     .age(40)
+			     .phone("1234")
+			     //no address
+			     .build();
 
-	User user3 = new User.UserBuilder("Super", "Man")
-												//No age
-												//No phone
-												//no address
-											 .build();
+	User user3 = new User.UserBuilder("yum", "ding")
+			      //No age
+			      //No phone
+			      //no address
+			      .build();
 }
 ```
 
