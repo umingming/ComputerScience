@@ -8,6 +8,7 @@
 node의 자식 수 중 최댓값을 K라고 하면, 해당 B-Tree를 K차 B-Tree라고도 한다.
 
 </aside>
+
 **‼️B-Tree의 조건은 다음과 같다.**
 
 - node의 key의 수가 k개라면, 자식 node의 수는 k+1개이다.
