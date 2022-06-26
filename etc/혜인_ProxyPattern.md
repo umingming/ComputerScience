@@ -2,13 +2,11 @@
 
 - 실제 기능을 수행하는 객체(Real Object) 대신 가상의 객체(Proxy Object)를 사용해 로직의 흐름을 제어하는 디자인 패턴
 
----
-
 - 어떤 객체를 사용하고자 할때, 객체를 직접적으로 참조 하는것이 아니라, 해당 객체를 대행(대리, proxy)하는 객체를 통해 대상객체에 접근하는 방식을 사용
     - 이 방식을 사용하면 해당 객체가 메모리에 존재하지 않아도 기본적인 정보를 참조하거나 설정할 수 있음
     - 또한 실제 객체의 기능이 반드시 필요한 시점까지 객체의 생성을 미룰 수 있음
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56d9bfc5-0d0d-4103-a08f-6e87b6c388ab/Untitled.png)
+![image](https://user-images.githubusercontent.com/90780701/175817665-c335ea49-f227-438f-a7e0-700f1d5833ea.png)
 
 ### **프록시 패턴 장점**
 
@@ -83,13 +81,13 @@ public class Main {
     - 많은 양의 리소스를 필요로 하는 상황에서 디비쿼리가 엄청나게 느려질 수 있다.
     - 이럴때 지연초기화를 위한 코드작성을 해야하는데 이를 모든 클래스마다 직접 넣어버리면 엄청나게 많은 코드중복이 발생할것이다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5c2b882-ac8d-4997-a676-ff94c42d12e5/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/90780701/175817672-6e1e1591-1930-4589-a88e-602ecfd4b4be.png)
     
     **프록시패턴 사용**
     
     - 프록시객체를 이용하면 요청을 프록시객체가 먼저 받은뒤에 흐름을 제어하여 디비에 쿼리를 날릴 수 있게된다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a583d71-25ab-4d13-92f5-dd9b384bce65/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/90780701/175817687-0e289126-9a58-4e5b-9d73-3ac4d915f192.png)
     
 - 실제 메소드가 호출되기 이전에 필요한 기능(전처리등의)을 구현객체 변경없이 추가할 수 있다.
     - 코드변경의 최소화
