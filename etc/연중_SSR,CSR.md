@@ -75,6 +75,6 @@ CSR은 초기에 빈 페이지를 노출시키다보니 크롤러가 첫 페이�
 <br>
 
 ### 출처
-https://proglish.tistory.com/216
-https://miracleground.tistory.com/165
-https://velog.io/@ru_bryunak/SPA-%EC%82%AC%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98-SSR%EA%B3%BC-CSR
+https://proglish.tistory.com/216  
+https://miracleground.tistory.com/165  
+https://velog.io/@ru_bryunak/SPA-%EC%82%AC%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98-SSR%EA%B3%BC-CSR  
