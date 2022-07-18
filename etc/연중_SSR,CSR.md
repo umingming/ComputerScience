@@ -69,3 +69,12 @@ CSR은 초기에 빈 페이지를 노출시키다보니 크롤러가 첫 페이�
 - 메인 스크립트가 가벼울 때
 - SEO를 고려할 필요가 없을 때
 - 웹 어플리케이션에 사용자와 상호작용할 것들이 많을 때. (아예 렌더링 되지 않아서 사용자의 행동을 막는 것이 경험에 오히려 유리함.)
+
+<br>
+<br>
+<br>
+
+### 출처
+https://proglish.tistory.com/216
+https://miracleground.tistory.com/165
+https://velog.io/@ru_bryunak/SPA-%EC%82%AC%EC%9A%A9%EC%97%90%EC%84%9C%EC%9D%98-SSR%EA%B3%BC-CSR
